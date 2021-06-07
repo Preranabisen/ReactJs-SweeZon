@@ -1,0 +1,53 @@
+.aboutView{
+    padding-top: 80px;
+    margin-bottom: 150px;
+}
+
+.leftAboutSection, .rightAboutSection{
+    padding: 70px;
+}
+.aboutHeading{
+    color:#2d2d2d;
+    font-weight: bold;
+}
+
+.aboutDecs{
+    color: #7e7e7e;
+    font-weight: 700;
+}
+
+.rightAboutSection img{
+    width: 100%;
+}
+
+.aboutImageView {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    width: 72vw;
+    margin-top: -400px;
+    padding: 50px;
+}
+
+.aboutImageView img {
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width: 1350px) {
+    .aboutImageView img {
+        width: 180px !important;
+        height: 180px !important;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .aboutImageView {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -678px;
+    }
+
+}

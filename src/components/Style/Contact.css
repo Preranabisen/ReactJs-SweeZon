@@ -1,0 +1,88 @@
+.contactView {
+    padding-top: 80px;
+}
+
+.contactUpperView{
+    background-image: linear-gradient(to right top, #ecece7, #d2d3ce, #b9bab6, #a1a29f, #898b88);   
+    width: 100%;
+    height: 25vw;
+    text-align: center;
+}
+
+.contactLowerView {
+    height: 25vw;
+}
+
+.contactHeading {
+    color: #E6527A;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.ContactForm {
+    box-shadow: 0 0 5px grey;
+    width: 620px;
+    margin-top: -100px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contactRightSection {
+    background: #3F41B6;
+    padding: 30px;
+    padding-top: 60px !important;
+    height: 100%;
+}
+
+.contactOption {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contactLeftSection{
+    padding: 40px;
+    padding-top: 60px !important;
+}
+
+.contactText{
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.contactLocation{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 600; 
+}
+.whatsappImage {
+    width: 40px;
+    height: 30px;
+}
+
+.contactOption .fas {
+    width: 40px;
+    padding-top: 4px;
+    font-size: 20px;
+}
+.contactDesc {
+    color: #000;
+    font-weight: bold;
+}
+.contactAddress .fas{
+    color: #fff !important;
+}
+@media screen and (max-width: 960px) {
+    .ContactForm{
+        width: 330px;
+    }
+    .contactUpperView{
+        height: 60vw;
+    }
+    .contactLowerView{
+        height: 60vw;
+    }
+    
+}

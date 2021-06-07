@@ -1,0 +1,31 @@
+.footerUpperView {
+    background: #282961;
+    padding: 30px;
+}
+
+.socialImage {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.socialHeading {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.socialDesc{
+    color: #fff;
+    font-weight: bold;
+}
+
+.footerLowerView {
+    background: #121350;
+    padding: 25px;
+    text-align: center;
+}
+
+.socialLogin {
+    margin-bottom: 20px;
+}
